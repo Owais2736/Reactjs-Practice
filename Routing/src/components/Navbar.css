@@ -1,0 +1,16 @@
+nav {
+    display: flex;
+  
+    background-color: black;
+   
+   
+
+}
+
+li{
+    list-style-type: none;
+    padding: 23px;
+    color: white;
+   
+    
+}
