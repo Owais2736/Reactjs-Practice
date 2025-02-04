@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: start;
+    padding: 40px;
+    gap: 30px;
+    list-style: none;
+    background-color: beige;
+
+}

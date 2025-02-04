@@ -1,0 +1,14 @@
+.ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    background-color: black;
+    padding: 25px;
+}
+.ul li{
+    color: white;
+}
+
+.red{
+   background-color: red;
+}
