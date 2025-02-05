@@ -1,17 +1,18 @@
-import React, { memo } from 'react'
+import React from 'react'
+import { memo } from 'react';
 
-function Navbar({adjective , getAdjective}) {
-    console.log("navbar render");
-    
+const Navbar = ({adjective , getAdjective}) => {
+  console.log("navbar is rendered");
+  
   return (
-    <div>
-
-        I am a {adjective} navbar
-
-        <button onClick={()=>{getAdjective()}}>{getAdjective()}</button>
-      
-    </div>
+    <>
+    i am a {adjective} navber
+    <button>{getAdjective()}</button>
+    
+    
+    </>
   )
 }
 
-export default memo(Navbar) 
+export default memo(Navbar)
+
